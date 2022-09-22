@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(106, 238, 194) ;
+}
+
 ul{
     background-color: rgba(0, 255, 255, 0.795);
     margin: 0;
@@ -23,4 +29,30 @@ li a:hover{
 
 .menuActivo{
     background-color: darkviolet ;
+}
+
+div{
+    margin: 5px;
+    width: 95% auto;
+    background-color: rgb(106, 238, 194);
+    color: #fff;
+}
+
+div h1{
+    color: brown ;
+    text-align:center;
+    font-size: 45px;
+}
+
+div section{
+    margin: 10px 20px;
+}
+
+section h2{
+    color: #007ac0;
+    font-size: 35px;
+}
+
+section p{
+    font-size: 20px;
 }
