@@ -1,0 +1,26 @@
+ul{
+    background-color: rgba(0, 255, 255, 0.795);
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+li a{
+    color: #fff;
+    display: block;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: deeppink;
+    color: oldlace;
+}
+
+.menuActivo{
+    background-color: darkviolet ;
+}
